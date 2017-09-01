@@ -16,6 +16,7 @@
 		2184C02E1F5937C50090B255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2184C02C1F5937C50090B255 /* LaunchScreen.storyboard */; };
 		2184C0391F5937C60090B255 /* labelStrLongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2184C0381F5937C60090B255 /* labelStrLongTests.m */; };
 		2184C0441F5937C70090B255 /* labelStrLongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2184C0431F5937C70090B255 /* labelStrLongUITests.m */; };
+		2184C0561F5939810090B255 /* UILabel+textlong.m in Sources */ = {isa = PBXBuildFile; fileRef = 2184C0551F5939810090B255 /* UILabel+textlong.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2184C03F1F5937C60090B255 /* labelStrLongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = labelStrLongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2184C0431F5937C70090B255 /* labelStrLongUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = labelStrLongUITests.m; sourceTree = "<group>"; };
 		2184C0451F5937C70090B255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2184C0541F5939810090B255 /* UILabel+textlong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+textlong.h"; sourceTree = "<group>"; };
+		2184C0551F5939810090B255 /* UILabel+textlong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+textlong.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				2184C01F1F5937C40090B255 /* AppDelegate.m */,
 				2184C0211F5937C40090B255 /* ViewController.h */,
 				2184C0221F5937C40090B255 /* ViewController.m */,
+				2184C0541F5939810090B255 /* UILabel+textlong.h */,
+				2184C0551F5939810090B255 /* UILabel+textlong.m */,
 				2184C0241F5937C50090B255 /* Main.storyboard */,
 				2184C02A1F5937C50090B255 /* Assets.xcassets */,
 				2184C02C1F5937C50090B255 /* LaunchScreen.storyboard */,
@@ -280,6 +285,7 @@
 				2184C0201F5937C40090B255 /* AppDelegate.m in Sources */,
 				2184C0291F5937C50090B255 /* labelStrLong.xcdatamodeld in Sources */,
 				2184C01D1F5937C30090B255 /* main.m in Sources */,
+				2184C0561F5939810090B255 /* UILabel+textlong.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
